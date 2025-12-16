@@ -1,11 +1,11 @@
 ## ✅ **Project Migration Summary: From React + Vite → Next.js (App Router)**
 
 ### 🔹 1. **Removed Vite-Specific Files**
-- **What**: Deleted `vite.config.ts`, `index.html`,`App.tsx`,`main.tsx` and `dist/` folder. Merge both `index.css` and `App.css` into `global.css` and import it into `app/layout.tsx`
+- **What**: Deleted `vite.config.ts`, `index.html`,`App.tsx`,`main.tsx` and `dist/` folder. Merge both `index.css` and `App.css` into `global.css` and import it into `app/layout.tsx`.
+   Merge both `index.html` and `App.tsx` into `layout.tsx` and  `Providers.tsx(Components)`
 - **Why**: These files are only for Vite. Next.js uses its own system and does **not need them**.
 
 - **Result**: Clean project structure for Next.js.
-- merge code of index.html and app.tsx into layout.tsx and Providers.tsx(Components)
 
 ---
 
