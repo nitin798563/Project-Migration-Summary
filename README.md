@@ -5,6 +5,7 @@
 - **Why**: These files are only for Vite. Next.js uses its own system and does **not need them**.
 
 - **Result**: Clean project structure for Next.js.
+- merge code of index.html and app.tsx into layout.tsx and Providers.tsx(Components)
 
 ---
 
